@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   height: 100vh;
+  margin: 0;
 }
 
 .App {
@@ -23,7 +24,13 @@ body {
   color: #ffffff;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
+h2 {
+  margin: 0.5rem;
+}
 
+.about {
+  font-size: 12px;
+}
 input {
   text-align: center;
   padding: 0.5rem;
@@ -48,19 +55,20 @@ button {
 }
 
 footer {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #12b0e8;
   padding: 0 0 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
 
 .fcontainer {
+  font-size: 12px;
+  text-align: center;
   max-width: 500px;
+  color: #ffffff;
 }
