@@ -1,2 +1,2 @@
 # GCEK-Score-Converter
-Created with CodeSandbox
+#### live demo - https://gcekcgpaconverter.netlify.app/
